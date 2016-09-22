@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-labs42",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:labs42/eslint-config-labs42.git"
+  },
+  "keywords": [
+    "labs42",
+    "eslint",
+    "config",
+    "codestyle"
+  ],
+  "author": "Alexander I. Antipin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labs42/eslint-config-labs42/issues"
+  },
+  "homepage": "https://github.com/labs42/eslint-config-labs42#readme"
+}
