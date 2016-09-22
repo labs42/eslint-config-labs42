@@ -13,6 +13,7 @@ module.exports = {
             'ignoreUrls': true,
             'ignoreComments': false
         }],
+        'quotes': [ ERROR, 'single' ],
         'no-underscore-dangle': [ OFF ],
         'array-bracket-spacing': [2, 'always'],
         'newline-before-return': [ ERROR ],
