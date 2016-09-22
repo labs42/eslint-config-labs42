@@ -2,14 +2,15 @@ const baseRules = [
     'eslint:recommended',
 ].concat([
     '../src/rules/ava',
-    '../src/rules/es6',
     '../src/rules/best-practices',
     '../src/rules/errors',
+    '../src/rules/es6',
+    '../src/rules/imports',
     '../src/rules/jsdoc',
     '../src/rules/node',
     '../src/rules/strict',
-    '../src/rules/variables',
     '../src/rules/style',
+    '../src/rules/variables',
 ].map(require.resolve))
 
 module.exports = {
