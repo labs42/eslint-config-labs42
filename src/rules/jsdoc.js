@@ -1,8 +1,8 @@
-const { ERROR } = require('../const')
+const { WARN, ERROR } = require('../const')
 
 module.exports = {
     rules: {
-        'require-jsdoc': [ ERROR, {
+        'require-jsdoc': [ WARN, {
             'require': {
                 'FunctionDeclaration': true,
                 'MethodDefinition': true,
