@@ -4,7 +4,8 @@
   "description": "",
   "main": "presets/default.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/prelint"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,12 @@
   },
   "peerDependencies": {
     "eslint": ">= 3"
-  }
+  },
+  "devDependencies": {
+    "pre-commit": "1.1.3",
+    "prelint": "1.0.1"
+  },
+  "precommit": [
+    "lint"
+  ]
 }
