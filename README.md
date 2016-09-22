@@ -16,4 +16,4 @@ Installation
 Usage
 -----
 
- * Add ``"extends": "labs42:node"`` to your .eslintrc for server-side projects
+ * Add ``"extends": "labs42/presets/node"`` to your .eslintrc for server-side projects
