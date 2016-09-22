@@ -15,7 +15,7 @@ module.exports = {
         }],
         'quotes': [ ERROR, 'single' ],
         'no-underscore-dangle': [ OFF ],
-        'array-bracket-spacing': [2, 'always'],
+        'array-bracket-spacing': [ ERROR, 'always'],
         'newline-before-return': [ ERROR ],
         'no-multiple-empty-lines': [ ERROR, { 'max': 1 }]
     }
