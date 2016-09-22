@@ -1,7 +1,7 @@
 Labs42 ESLint config
 ====================
 
-This package provides Labs42's .eslintrc as an extensible shared config.
+This package provides ESLint config rules accepted and required in labs42 projects.
 
 Requirements
 ------------
