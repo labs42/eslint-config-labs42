@@ -18,21 +18,21 @@ module.exports = {
     'settings': {
         'import/resolver': {
             'node': {
-                'extensions': ['.js', '.json']
+                'extensions': [ '.js', '.json' ]
             }
         }
     },
     'rules': {
         // enforces no braces where they can be omitted
         // http://eslint.org/docs/rules/arrow-body-style
-        'arrow-body-style': [ERROR, 'as-needed'],
+        'arrow-body-style': [ ERROR, 'as-needed' ],
         // require parens in arrow function arguments
         'arrow-parens': OFF,
         // require space before/after arrow function's arrow
         // http://eslint.org/docs/rules/arrow-spacing
-        'arrow-spacing': [ERROR, {'before': true, 'after': true}],
+        'arrow-spacing': [ ERROR, {'before': true, 'after': true} ],
         // require trailing commas in multiline object literals
-        'comma-dangle': [ERROR, 'always-multiline'],
+        'comma-dangle': [ ERROR, 'always-multiline' ],
         // verify super() callings in constructors
         'constructor-super': OFF,
         // enforce the spacing around the * in generator functions
@@ -42,9 +42,9 @@ module.exports = {
         'no-class-assign': ERROR,
         // disallow arrow functions where they could be confused with comparisons
         // http://eslint.org/docs/rules/no-confusing-arrow
-        'no-confusing-arrow': [ERROR, {
+        'no-confusing-arrow': [ ERROR, {
             'allowParens': true,
-        }],
+        } ],
         // disallow modifying variables that are declared using const
         'no-const-assign': ERROR,
         // disallow duplicate class members
@@ -73,12 +73,12 @@ module.exports = {
         'no-useless-constructor': ERROR,
         // require method and property shorthand syntax for object literals
         // http://eslint.org/docs/rules/object-shorthand
-        'object-shorthand': [ERROR, 'always'],
+        'object-shorthand': [ ERROR, 'always' ],
         // suggest using arrow functions as callbacks
-        'prefer-arrow-callback': [ERROR, {
+        'prefer-arrow-callback': [ ERROR, {
             'allowNamedFunctions': false,
             'allowUnboundThis': true,
-        }],
+        } ],
         // suggest using of const declaration for variables that are never modified after declared
         'prefer-const': ERROR,
         // suggest using the spread operator instead of .apply()
@@ -101,7 +101,7 @@ module.exports = {
         'template-curly-spacing': ERROR,
         // enforce spacing around the * in yield* expressions
         // http://eslint.org/docs/rules/yield-star-spacing
-        'yield-star-spacing': [ERROR, 'after'],
+        'yield-star-spacing': [ ERROR, 'after' ],
         // disallow invalid exports, e.g. multiple defaults
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
         'import/export': ERROR,
@@ -111,7 +111,7 @@ module.exports = {
         // Ensure consistent use of file extension within the import path
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
         // TODO: enable
-        'import/extensions': [OFF, 'never'],
+        'import/extensions': [ OFF, 'never' ],
         // ensure named imports coupled with named exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
         'import/named': OFF,
@@ -120,13 +120,13 @@ module.exports = {
         // Forbid the use of extraneous packages
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
         // TODO: enable
-        'import/no-extraneous-dependencies': [OFF, {
+        'import/no-extraneous-dependencies': [ OFF, {
             'devDependencies': false,
             'optionalDependencies': false,
-        }],
+        } ],
         // ensure imports point to files/modules that can be resolved
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-        'import/no-unresolved': [ERROR, {'commonjs': true}],
+        'import/no-unresolved': [ ERROR, {'commonjs': true} ],
         // do not allow a default import name to match a named export
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
         // TODO: enable
@@ -140,7 +140,7 @@ module.exports = {
         // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
         // TODO: enable?
-        'import/imports-first': [OFF, 'absolute-first'],
+        'import/imports-first': [ OFF, 'absolute-first' ],
         // disallow duplicate imports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
         'import/no-duplicates': ERROR,
@@ -161,10 +161,10 @@ module.exports = {
         // Enforce a convention in module import order
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         // TODO: enable?
-        'import/order': [OFF, {
-            'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'import/order': [ OFF, {
+            'groups': [ 'builtin', 'external', 'internal', 'parent', 'sibling', 'index' ],
             'newlines-between': 'never',
-        }],
+        } ],
         // Require a newline after the last import/require in a group
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
         // TODO: enable

@@ -16,7 +16,7 @@ module.exports = {
         // enforces error handling in callbacks (node environment)
         'handle-callback-err': OFF,
         // disallow mixing regular variable and require declarations
-        'no-mixed-requires': [OFF, false],
+        'no-mixed-requires': [ OFF, false ],
         // disallow use of new operator with the require function
         'no-new-require': OFF,
         // disallow string concatenation with __dirname and __filename
@@ -29,13 +29,13 @@ module.exports = {
         'no-sync': OFF,
         // ensure imports point to files/modules that can be resolved
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-        'import/no-unresolved': [ERROR, {'commonjs': true}]
+        'import/no-unresolved': [ ERROR, {'commonjs': true} ]
     },
     'settings': {
         'import/resolver': {
             'node': {
-                'extensions': ['.js', '.json']
+                'extensions': [ '.js', '.json' ]
             }
         }
     }
-};
+}

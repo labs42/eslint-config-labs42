@@ -3,7 +3,7 @@ const {OFF, WARN, ERROR} = require('../const')
 module.exports = {
     'rules': {
         // disallow assignment in conditional expressions
-        'no-cond-assign': [ ERROR, 'always'],
+        'no-cond-assign': [ ERROR, 'always' ],
         // disallow use of console
         'no-console': WARN,
         // disallow use of constant expressions in conditions
@@ -31,7 +31,7 @@ module.exports = {
         'no-extra-parens': [ OFF, 'all', {
             'conditionalAssign': true,
             'nestedBinaryExpressions': false,
-        }],
+        } ],
         // disallow unnecessary semicolons
         'no-extra-semi': ERROR,
         // disallow overwriting functions written as function declarations

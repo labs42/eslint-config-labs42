@@ -10,20 +10,20 @@ module.exports = {
         // treat var statements as if they were block scoped
         'block-scoped-var': ERROR,
         // specify the maximum cyclomatic complexity allowed in a program
-        'complexity': [ OFF, 11],
+        'complexity': [ OFF, 11 ],
         // require return statements to either always or never specify values
         'consistent-return': OFF,
         // specify curly brace conventions for all control statements
-        'curly': [ ERROR, 'multi-line'],
+        'curly': [ ERROR, 'multi-line' ],
         // require default case in switch statements
-        'default-case': [ ERROR, { 'commentPattern': '^no default$' }],
+        'default-case': [ ERROR, { 'commentPattern': '^no default$' } ],
         // encourages use of dot notation whenever possible
-        'dot-notation': [ ERROR, { 'allowKeywords': true }],
+        'dot-notation': [ ERROR, { 'allowKeywords': true } ],
         // enforces consistent newlines before or after dots
         'dot-location': OFF,
         // require the use of === and !==
         // http://eslint.org/docs/rules/eqeqeq
-        'eqeqeq': [ ERROR, 'allow-null'],
+        'eqeqeq': [ ERROR, 'allow-null' ],
         // make sure for-in loops have an if statement
         'guard-for-in': ERROR,
         // Blacklist certain identifiers to prevent them being used
@@ -48,7 +48,7 @@ module.exports = {
                 'functions',
                 'methods',
             ]
-        }],
+        } ],
         // disallow empty destructuring patterns
         // http://eslint.org/docs/rules/no-empty-pattern
         'no-empty-pattern': ERROR,
@@ -76,7 +76,7 @@ module.exports = {
         // disallow usage of __iterator__ property
         'no-iterator': ERROR,
         // disallow use of labels for anything other then loops and switches
-        'no-labels': [ ERROR, { 'allowLoop': false, 'allowSwitch': false }],
+        'no-labels': [ ERROR, { 'allowLoop': false, 'allowSwitch': false } ],
         // disallow unnecessary nested blocks
         'no-lone-blocks': ERROR,
         // disallow creation of functions within loops
@@ -88,7 +88,7 @@ module.exports = {
             'ignoreArrayIndexes': true,
             'enforceConst': true,
             'detectObjects': false,
-        }],
+        } ],
         // disallow use of multiple spaces
         'no-multi-spaces': ERROR,
         // disallow use of multiline strings
@@ -109,7 +109,7 @@ module.exports = {
         // disallow reassignment of function parameters
         // disallow parameter object manipulation
         // rule: http://eslint.org/docs/rules/no-param-reassign.html
-        'no-param-reassign': [ WARN, { 'props': false }],
+        'no-param-reassign': [ WARN, { 'props': false } ],
         // disallow use of process.env
         'no-process-env': OFF,
         // disallow usage of __proto__ property
@@ -157,7 +157,7 @@ module.exports = {
         // disallow use of void operator
         'no-void': OFF,
         // disallow usage of configurable warning terms in comments: e.g. todo
-        'no-warning-comments': [ OFF, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
+        'no-warning-comments': [ OFF, { 'terms': [ 'todo', 'fixme', 'xxx' ], 'location': 'start' } ],
         // disallow use of the with statement
         'no-with': ERROR,
         // require use of the second argument for parseInt()
@@ -166,8 +166,8 @@ module.exports = {
         'vars-on-top': ERROR,
         // require immediate function invocation to be wrapped in parentheses
         // http://eslint.org/docs/rules/wrap-iife.html
-        'wrap-iife': [ ERROR, 'outside'],
+        'wrap-iife': [ ERROR, 'outside' ],
         // require or disallow Yoda conditions
         'yoda': ERROR,
     }
-};
+}

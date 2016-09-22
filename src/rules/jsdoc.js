@@ -8,7 +8,7 @@ module.exports = {
                 'MethodDefinition': true,
                 'ClassDeclaration': true
             }
-        }],
+        } ],
         'valid-jsdoc': [ ERROR, {
             'requireParamDescription': false,
             'requireReturnDescription': false,
@@ -28,6 +28,6 @@ module.exports = {
                 'array': 'Array',
                 'function': 'Function',
             }
-        }],
+        } ],
     }
 }

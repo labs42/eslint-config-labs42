@@ -15,7 +15,7 @@ module.exports = {
     settings: {
         'import/resolver': {
             node: {
-                extensions: ['.js', '.json']
+                extensions: [ '.js', '.json' ]
             }
         },
         'import/extensions': [
@@ -35,7 +35,7 @@ module.exports = {
 
         // ensure imports point to files/modules that can be resolved
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-        'import/no-unresolved': [ERROR, { commonjs: true }],
+        'import/no-unresolved': [ ERROR, { commonjs: true } ],
 
         // ensure named imports coupled with named exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
@@ -68,10 +68,10 @@ module.exports = {
 
         // Forbid the use of extraneous packages
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
-        'import/no-extraneous-dependencies': [ERROR, {
+        'import/no-extraneous-dependencies': [ ERROR, {
             devDependencies: false,
             optionalDependencies: false,
-        }],
+        } ],
 
         // Forbid mutable exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
@@ -96,7 +96,7 @@ module.exports = {
 
         // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
-        'import/imports-first': [ERROR, 'absolute-first'],
+        'import/imports-first': [ ERROR, 'absolute-first' ],
 
         // disallow duplicate imports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
@@ -110,15 +110,15 @@ module.exports = {
         // Ensure consistent use of file extension within the import path
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
         // TODO: enable when https://github.com/benmosher/eslint-plugin-import/issues/390 is resolved
-        'import/extensions': [OFF, 'never'],
+        'import/extensions': [ OFF, 'never' ],
 
         // Enforce a convention in module import order
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         // TODO: enable?
-        'import/order': [OFF, {
-            groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'import/order': [ OFF, {
+            groups: [ 'builtin', 'external', 'internal', 'parent', 'sibling', 'index' ],
             'newlines-between': 'never',
-        }],
+        } ],
 
         // Require a newline after the last import/require in a group
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
@@ -134,11 +134,11 @@ module.exports = {
 
         // Forbid modules to have too many dependencies
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
-        'import/max-dependencies': [OFF, { max: 10 }],
+        'import/max-dependencies': [ OFF, { max: 10 } ],
 
         // Forbid import of modules using absolute paths
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
         // TODO: enable, semver-major
-        'import/no-absolute-path': [OFF],
+        'import/no-absolute-path': [ OFF ],
     },
-};
+}
