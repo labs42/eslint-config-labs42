@@ -16,5 +16,4 @@ Installation
 Usage
 -----
 
- * Add ``"extends": "labs42:server"`` to your .eslintrc for server-side projects
- * Or add ``"extends": "labs42:client"`` to your .eslintrc for client-side projects
+ * Add ``"extends": "labs42:node"`` to your .eslintrc for server-side projects
