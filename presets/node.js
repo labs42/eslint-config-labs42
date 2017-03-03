@@ -8,6 +8,7 @@ const baseRules = [
     '../src/rules/imports',
     '../src/rules/jsdoc',
     '../src/rules/node',
+    '../src/rules/react',
     '../src/rules/strict',
     '../src/rules/style',
     '../src/rules/variables',

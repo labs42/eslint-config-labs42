@@ -26,7 +26,8 @@
   "dependencies": {
     "babel-eslint": "6.1.2",
     "eslint-plugin-ava": "3.0.0",
-    "eslint-plugin-import": "1.15.0"
+    "eslint-plugin-import": "1.15.0",
+    "eslint-plugin-react": "6.10.0"
   },
   "peerDependencies": {
     "eslint": ">= 3"
