@@ -17,11 +17,12 @@ const baseRules = [
 module.exports = {
     parser: 'babel-eslint',
     env: {
-        node: true
+        node: true,
+        browser: true,
     },
     extends: baseRules,
     parserOptions: {
         ecmaVersion: 7,
         sourceType: 'module',
-    }
+    },
 }
