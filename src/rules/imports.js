@@ -1,6 +1,9 @@
 const { OFF, ERROR } = require('../const')
 
 module.exports = {
+    plugins: [
+        'import'
+    ],
     env: {
         es6: true
     },
@@ -8,10 +11,6 @@ module.exports = {
         ecmaVersion: 6,
         sourceType: 'module'
     },
-    plugins: [
-        'import'
-    ],
-
     settings: {
         'import/resolver': {
             node: {
@@ -29,7 +28,6 @@ module.exports = {
             '\\.(coffee|scss|css|less|hbs|svg|json)$',
         ],
     },
-
     rules: {
         // Static analysis:
 
