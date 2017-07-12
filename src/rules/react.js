@@ -1,6 +1,8 @@
 module.exports = {
-    ecmaFeatures: {
-        'jsx': true
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true
+        },
     },
     extends: [
         'plugin:react/recommended'
